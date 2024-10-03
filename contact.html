@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        /* Reset default margin and padding */
+        body, h1, h2, h3, h4, h5, h6, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container styles */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Section styles */
+        #three {
+            margin-top: 50px;
+        }
+
+        #three h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        /* Form styles */
+        form {
+            width: 100%;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Address styles */
+        .labeled-icons li {
+            margin-bottom: 20px;
+        }
+
+        .labeled-icons h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .labeled-icons a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .labeled-icons a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section id="three">
+            <h2>Get In Touch</h2>
+            <div class="row">
+                <div class="col-8 col-12-small">
+                    <form method="post" action="#">
+                        <div class="row gtr-uniform gtr-50">
+                            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name"></div>
+                            <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email"></div>
+                            <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                        </div>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+                <div class="col-4 col-12-small">
+                    <ul class="labeled-icons">
+                        <li>
+                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                            Astonbury Green,<br> Middlesbrough
+                            <br> United Kingdom<br>
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                            <a href="mailto:your-email@example.com">your-email@example.com</a>
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-linkedin"><span class="label">LinkedIn</span></h3>
+                            <a href="https://www.linkedin.com/in/isaac-dada-24ba6ab3/">Connect on LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

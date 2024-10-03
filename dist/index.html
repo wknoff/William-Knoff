@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>William Knoff - Electrical Engineering & Data Science Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        #header .image.avatar {
+            width: 50% !important;
+        }
+        
+        header p {
+            text-align: center !important;
+        }
+        
+        .work-item h3 {
+            font-weight: bold;
+        }
+        
+        #two article {
+            border: 1px solid #89bbbb;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D125QPSGD5"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-D125QPSGD5');
+</script>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="inner" style="margin: auto; text-align: center;">
+            <a href="images/fulls/profile.jpeg" class="image avatar"><img src="images/fulls/profile.jpeg" alt="" /></a>
+            <h1><strong>WILLIAM KNOFF <br>ELECTRICAL ENGINEER & DATA SCIENTIST</strong></h1>
+            <p>Self-driven student passionate about continuous improvement through career and personal development.</p>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- About Section with Professional Summary -->
+        <section id="one">
+            <header class="major">
+                <h2 style="font-weight: bold;">Professional Summary</h2>
+            </header>
+            <p>
+                I am a self-driven student passionate about continuous improvement through career and personal development. With experience in electrical engineering principles, programming in C, C++, and Python, and circuit design and simulation using Altium, LTSpice,
+                and HSPICE, I aim to leverage my skills to create innovative solutions. My practical experience includes working on various engineering projects such as solar-powered boat construction, motor controllers, and data science applications
+                like stock prediction models.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="two">
+            <h2 style="font-weight: bold;">Projects</h2>
+            <div class="row">
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/solarsplash.jpg" class="image fit thumb"><img src="images/fulls/solarsplash.jpg" alt="" /></a>
+                    <h3>Solar Powered Boat for Solar Splash® Competition | Present</h3>
+                    <h5>
+                        • Constructing the electrical systems of a solar-powered boat.<br> • Designed battery configuration optimized for high-power sprint and long-distance endurance race.<br> • Built battery monitoring systems using Victron battery
+                        monitor and shunt resistor.<br> • Assembled solar charging circuit using solar panels and Genasun GV-boost controllers.<br> • Programmed VESC controller for brushless Alienpower motor to be compatible with RC and local potentiometer
+                        throttles.
+                        <br> • Programmed throttle with Alltrax motor controller for a 10kW axial gap DC brushed motor.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/canbus.jpg" class="image fit thumb"><img src="images/fulls/canbus.jpg" alt="" /></a>
+                    <h3>J1939 CAN Bus & Ignition Emulator for Electric Trucks | August 2024</h3>
+                    <h5>
+                        • Emulates the CAN traces of two different in-development electric trucks.<br> • Built Python app on a Raspberry Pi with a GUI (Tkinter) that communicates with the network using a PCAN adapter.<br> • Built separate behavior profiles
+                        for each EV with proprietary CAN signals.<br> • Used Pi GPIO and MOSFETs soldered to a perfboard to switch fused 12v ignition and emergency stop lines on and off.<br> • Built a custom-harness terminated in a 47-pin deutsch-style
+                        connector.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/headphoneamp.jpg" class="image fit thumb"><img src="images/fulls/headphoneamp.jpg" alt="" /></a>
+                    <h3>Low-Noise Two-Stage Dual-Channel Headphone Amplifier | May 2024</h3>
+                    <h5>
+                        • Designed battery-powered amplifier optimized for high impedance headphones.<br> • Achieved 18Hz-25kHz 3db small-signal bandwidth using high and low pass filters.<br> • Simulated circuit in HSPICE for low-noise and high-power
+                        output.
+                        <br> • Powered amplifier with two 9v batteries and reduced high-frequency noise using capacitors in the supply lines.<br> • Implemented and tested the design on a perfboard.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/rnnstock.jpg" class="image fit thumb"><img src="images/fulls/rnnstock.jpg" alt="" /></a>
+                    <h3>RNN Stock Prediction | May 2024</h3>
+                    <h5>
+                        • Imported 2021-2022 S&P 500 time series stock price data with sentiment data from SNES 1.0 dataset.<br> • Performed exploratory data analysis with Matplotlib and Seaborn and preprocessed data using Pandas and Scikit-Learn.<br>                        • Built five-layer LSTM RNN with Keras to predict day-on-day percentage change.<br> • Simulated investment portfolio using a directional trading strategy.<br> • Concluded the model was unsuccessful due to stock market unpredictability.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/dcmotor.jpg" class="image fit thumb"><img src="images/fulls/dcmotor.jpg" alt="" /></a>
+                    <h3>Proportional DC Motor Controller in C | November 2023</h3>
+                    <h5>
+                        • Established hardware connections between the Explorer 16/32 Board, H-bridge, and motor components, configuring pins for encoder inputs, motor control signals, and power supply.<br> • Programmed motor controller with on/off, proportional,
+                        and proportional-integral modes.<br> • Tracked motor angle with a two-bit state machine and controlled it with output compare.<br> • Printed angle values to LCD and graphed motor angle via Matlab using UART for communication.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/steppermotor.jpg" class="image fit thumb"><img src="images/fulls/steppermotor.jpg" alt="" /></a>
+                    <h3>Three-Axis Stepper Motor Stage Controller in C++ | May 2023</h3>
+                    <h5>
+                        • Programmed C++ library to control a three-axis stepper motor stage via UART over RS-232 port.<br> • Wrote functions to open a serial port, establish a serial connection, and read/write with error detection.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/battleship.jpg" class="image fit thumb"><img src="images/fulls/battleship.jpg" alt="" /></a>
+                    <h3>Battleship in C++ | December 2022</h3>
+                    <h5>
+                        • Developed a responsive console-based user interface with input validation, graphical grid rendering, and dynamic feedback for hits and misses.<br> • Implemented intricate game mechanics, such as ship abilities, hit tracking,
+                        and win conditions.
+                    </h5>
+                </article>
+
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/fulls/nba.jpg" class="image fit thumb"><img src="images/fulls/nba.jpg" alt="" /></a>
+                    <h3>NBA Shot Outcome Prediction with Machine Learning | December 2022</h3>
+                    <h5>
+                        • Conducted data analysis and feature engineering on NBA shot data using Python.<br> • Implemented Logistic Regression, Decision Tree, Random Forest, and CNN models to predict outcomes.
+                    </h5>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="four">
+            <h2 style="font-weight: bold;">Get In Touch</h2>
+            <div class="row">
+                <div class="col-8 col-12-small">
+                    <form method="post" action="#">
+                        <div class="row gtr-uniform gtr-50">
+                            <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                            <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                            <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                        </div>
+                    </form>
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" /></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-12-small">
+                    <ul class="labeled-icons">
+                        <li>
+                            <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                            United States
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                            (646) 832-7651
+                        </li>
+                        <li>
+                            <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                            <a href="mailto:williamknoff@gmail.com">williamknoff@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="inner" style="margin: auto; text-align: center;">
+            <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/williamknoff" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/wknoff" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                <li><a href="mailto:williamknoff@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
